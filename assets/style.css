@@ -4,31 +4,108 @@ body {
 }
 
 nav {
+    display: flex;
+    align-items: flex-start;
     width: 100%;
     height: 56px;
     background: red;
 }
-nav > ul a li {
-    position: absolute;
-}
+nav > span img {
+    border-radius: 50%;
+    
+} 
 .container {
     display: flex;
-
+    align-content: center;
 }
 main {
+    display: flex;
     width: 60%;
     height: 900px;
-    background: black;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    background: white;
+    
 }
-
+h3, span {
+    color: black;
+    
+}
+main > .video-id {
+    align-content: center;
+}
 aside {
     width: 40%;
     height: 900px;
-    background: green;
+    background: white;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 50px;
 }
 
 footer {
     width: 100%;
     height: 70px;
     background: gray;
+}
+aside > div > .aside-video {
+    display: flex;
+    width: 70%;
+}
+aside > div > .aside-video .text {
+    width: 100%;
+}
+aside > div > .aside-video .image {
+    width: 100%;
+}
+
+aside > .aside-video {
+    display: flex;
+    width: 70%;
+}
+
+aside > .aside-video .text {
+    width: 100%;
+}
+aside > .aside-video .image {
+    width: 100%;
+}
+
+.container > main .video-id {
+    position: absolute;
+    left: 100px;
+}
+
+.container > main .video-id .video-description {
+    height: 200px;
+    background: blue;
+}
+
+.container > main .video-id .video-description .head {
+    height: 70px;
+    background: white;
+}
+
+.container > main .video-id .video-description .head .text-round {
+    border-radius: 20%;
+    background: green;
+    font-size: 40px;
+}
+
+.container > main .video-id .video-description .head .subs-btn {
+    font-size: 18px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+}
+.container > main .video-id .video-description .head a {
+    height: 30px;
+    width: 140px;
+}
+.container > main .video-id .video-description .comment {
+    height: 130px;
+    background: black;
 }
