@@ -2,16 +2,35 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>youtube clone</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css">
+    <script src="https://kit.fontawesome.com/166d406328.js"></script>
+
 </head>
 
 <body>
     <!-- begin nav bar -->
     <nav>
-        <span><img src="./assets/images/dc.JPG" alt="profile image" height="40px" width="40px"></span>
+        <a href="#" class="bars-a"><i class="fa fa-bars"></i></a>
+        <a href="" title="YouTube Home"><i class="fab fa-youtube"><span>YouTube<sup>GH</sup></span></i></a>
+        <a href="" title="notifications" class="bell-class"><i class="fa fa-bell" aria-hidden="true"></i></a>
+        <span><a href=""><img src="./assets/images/dc.JPG" alt="profile image" height="40px" width="40px"></span></a>
+        <a href="" title="create a video or post"><i class="fa fa-file-video-o" aria-hidden="true"></i></a>
+        <a href="#" title="YouTube apps"><i class="fas fa-th apps"></i></a>
+        <a href="#" title="messages"><i class="fas fa-share share"></i></a>
+        <div class="searchContainer">
+            <i class="fa fa-search searchIcon"></i>
+            <input class="searchBox" type="search" name="search" size="70" placeholder="Search...">
+        </div>
+
+
     </nav>
     <!-- end nav bar -->
     <!-- begin container -->
@@ -20,16 +39,22 @@
         <!-- start of main -->
         <main>
             <div class="video-id">
-                <iframe width="660" height="415" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0"
+                <iframe width="760" height="415" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
                 <div class="header-likes">
                     <h3>Contributing to open source Part 1: The easy way</h3>
                     <div class="views-likes">
                         <span class="likes">467,880 views</span>
-                        <i class="fa fa-likes"></i>
+                        <a href=""><i class="fa fa-share" aria-hidden="true"></i></a>
+                        <a class="like"><i class="fas fa-thumbs-up"></i> <span>98k</span></a>
+                        <a class="dislike"><i class="fas fa-thumbs-down"></i> <span>10</span></a>
+                        <a class="share"><i class="fa fa-share"></i> <span>SHARE</span> </a>
+                        <a class="save"><i class="fas fa-share-square"></i> <span>SAVE</span></a>
+                        <a class="more"><i class="fas fa-ellipsis-h"></i></a>
                     </div>
                     <hr>
+                    <br>
                 </div>
 
                 <div class="video-description">
@@ -54,7 +79,7 @@
                 <h3>upnext</h3>
                 <div class="aside-video">
                     <div class="image">
-                        <img src="./assets/images/other.png" height="120px" width="100%" alt="aside video">
+                        <img src="./assets/images/side.png" height="120px" width="100%" alt="aside video">
                     </div>
                     <div class="text">
                         <h3 class="header">Contributing to open source Part II: The real way</h3>
@@ -106,7 +131,7 @@
             </div>
             <div class="aside-video">
                 <div class="image">
-                    <img src="./assets/images/you.png" height="120px" width="100%" alt="aside video">
+                    <img src="./assets/images/side2.png" height="120px" width="100%" alt="aside video">
                 </div>
                 <div class="text">
                     <h3 class="header">Contributing to open source Part II: The real way</h3>
