@@ -7,15 +7,15 @@ using image and video embedding for the main video and the thumbnails at the sid
 
 USED:
 
-    - CSS
-    - HTML
+    * CSS
+    * HTML
 
 # AUTHORS
 ----
 
 This have been done by
 
-    - Daniel Larbi Addo [https://github.com/addod19](https://github.com/addod19)
+    * Daniel Larbi Addo [https://github.com/addod19](https://github.com/addod19)
 
 
 # The Website
