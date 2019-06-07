@@ -67,17 +67,24 @@ nav > a > .fab {
 }
 nav > .searchContainer {
     position: absolute;
-    left: 300px;
-    top: 16px;
+    transform: translate(297px, 9px);
+    height: 30px;
+    width: 575px;
+    left: 100px;
+    top: 12px;
 }
+
+
+
 .container {
     display: flex;
     align-content: center;
+    height: 1800px;
 }
 main {
     display: flex;
     width: 60%;
-    height: 1300px;
+    height: 1800;
     margin: 1px;
     padding: 1px;
     margin-top: 50px;
@@ -93,18 +100,13 @@ main > .video-id {
 }
 aside {
     width: 40%;
-    height: 1300px;
+    height: 1800;
     background: white;
     margin: 1px;
     padding: 1px;
     margin-top: 50px;
 }
 
-footer {
-    width: 100%;
-    height: 70px;
-    background: gray;
-}
 aside > div > .aside-video {
     display: flex;
     width: 70%;
@@ -147,12 +149,6 @@ aside > .aside-video .image {
     background: white;
 }
 
-.container > main .video-id .video-description .head .text-round {
-    border-radius: 20%;
-    background: green;
-    font-size: 40px;
-}
-
 .container > main .video-id .video-description .head .subs-btn {
     font-size: 18px;
     background: red;
@@ -175,7 +171,7 @@ aside > .aside-video .image {
 .img-head {
     display: inline;
     position: absolute;
-    bottom: 300px;
+    bottom: 980px;
 } 
 .head > .publish {
     color: silver;
@@ -203,4 +199,68 @@ aside > .aside-video .image {
 }
 #sort {
     font-size: 19px;
+}
+.com {
+  margin-top: 55px;
+}
+.com-dislikes {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.autoplay {
+  margin-left: 212px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.up-next {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.subscribe {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.duration {
+    color: silver;
+}
+.pubPhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.profile {
+  position: absolute;
+  transform: translate(5px, -5px);
+  margin-top: 20px;
+  padding: 5px;
+}
+.social {
+    color: gray;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 56px;
+    background: white;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+}
+.text-container {
+    position: absolute;
+    left: 350px;
+    bottom: 10;
+    color: black;
 }
