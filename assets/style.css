@@ -16,65 +16,83 @@ nav {
     z-index: 1;
 }
 
-nav > a .apps {
+nav > a .apps,
+nav > a .share,
+nav > span > a img, 
+nav > .bell-class > .fa,
+nav > a > .fa,
+nav > .bars-a .fa,
+nav > a > .fab,
+nav > .searchContainer,
+.container > main .video-id,
+.container > main > .video-id .header-likes .views-like .more,
+.container > main .video-id .video-description .head .subs-btn,
+.img-head,
+.views-likes > .others,
+.profile,
+.text-container  {
     position: absolute;
-    left: 1050px;
+}
+
+nav > a .apps,
+nav > a .share,
+nav > .bell-class > .fa,
+nav > a > .fa,
+nav > .bars-a .fa,
+nav > a > .fab {
     top: 16px;
     font-size: 20px;
+}
+.social,
+nav > a .apps,
+nav > a .share,
+nav > .bell-class > .fa,
+nav > a > .fa {
     color: gray;
+}
+
+nav > a .apps {
+    left: 1050px;
 }
 
 nav > a .share {
-    position: absolute;
     left: 1100px;
-    top: 16px;
-    font-size: 20px;
-    color: gray;
 }
 
 nav > span > a img {
-    position: absolute;
     border-radius: 50%;
     right: 50px;
     top: 10px;
 } 
 nav > .bell-class > .fa {
-    position: absolute;
     right: 120px;
-    top: 16px;
-    font-size: 20px;
-    color: gray;
 }
 nav > a > .fa {
-    position: absolute;
     right: 180px;
-    font-size: 20px;
-    top: 16px;
-    color: gray;
 }
 nav > .bars-a .fa {
-    position: absolute;
     left: 20px;
-    top: 16px;
-    font-size: 20px;
 }
 nav > a > .fab {
-    position: absolute;
     left: 80px;
-    top: 16px;
-    font-size: 20px;
     color: red;
 }
 nav > .searchContainer {
-    position: absolute;
     transform: translate(297px, 9px);
     height: 30px;
     width: 575px;
     left: 100px;
-    top: 12px;
+    top: 5px;
 }
-
-
+.searchContainer > button {
+    height: 30px;
+}
+.searchContainer > button:hover {
+    cursor: pointer;
+}
+.searchBox {
+    height: 30px;
+}
 
 .container {
     display: flex;
@@ -93,7 +111,6 @@ main {
 }
 h3, span {
     color: black;
-    
 }
 main > .video-id {
     align-content: center;
@@ -111,37 +128,29 @@ aside > div > .aside-video {
     display: flex;
     width: 70%;
 }
-aside > div > .aside-video .text {
+aside > div > .aside-video .text,
+aside > div > .aside-video .image,
+aside > .aside-video .text,
+aside > .aside-video .image,
+footer {
     width: 100%;
 }
-aside > div > .aside-video .image {
-    width: 100%;
-}
+
 
 aside > .aside-video {
     display: flex;
     width: 70%;
 }
 
-aside > .aside-video .text {
-    width: 100%;
-}
-aside > .aside-video .image {
-    width: 100%;
-}
-
 .container > main .video-id {
-    position: absolute;
     left: 30px;
 }
 .container > main > .video-id .header-likes .views-like .more {
-    position: absolute;
     left: 40px;
 }
 
 .container > main .video-id .video-description {
     height: 200px;
-    
 }
 
 .container > main .video-id .video-description .head {
@@ -154,7 +163,6 @@ aside > .aside-video .image {
     background: red;
     color: white;
     text-decoration: none;
-    position: absolute;
     right: 30px;
 }
 .container > main .video-id .video-description .head a {
@@ -170,10 +178,13 @@ aside > .aside-video .image {
 }
 .img-head {
     display: inline;
-    position: absolute;
     bottom: 980px;
 } 
-.head > .publish {
+.head > .publish,
+.comment > .show-more,
+.views-likes > .others,
+.views-likes > .likes,
+.duration {
     color: silver;
 }
 .comment > .show-more {
@@ -181,21 +192,16 @@ aside > .aside-video .image {
     height: 30px;
     border: 1px solid white;
     font-size: 20px;
-    color: silver;
 }
 .views-likes > .others {
-    color: silver;
-    position: absolute;
     left: 500px;
     top: 460px;
 }
 .views-likes > .likes {
-    color: silver;
     font-size: 18px;
 }
 .comments-section > .comments-sortby-icon {
     font-size: 22px;
-    
 }
 #sort {
     font-size: 19px;
@@ -231,27 +237,18 @@ aside > .aside-video .image {
 .img-rounded {
     border-radius: 50%;
 }
-.duration {
-    color: silver;
-}
 .pubPhoto {
   width: 50px;
   height: 50px;
   border-radius: 100%;
 }
 .profile {
-  position: absolute;
   transform: translate(5px, -5px);
   margin-top: 20px;
   padding: 5px;
 }
-.social {
-    color: gray;
-}
-
 footer {
     position: relative;
-    width: 100%;
     height: 56px;
     background: white;
     color: white;
@@ -259,7 +256,6 @@ footer {
     font-size: 17px;
 }
 .text-container {
-    position: absolute;
     left: 350px;
     bottom: 10;
     color: black;
