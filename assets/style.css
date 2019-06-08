@@ -18,6 +18,9 @@ nav {
 iframe {
     border: 0;
 }
+.img-width {
+    width: 100%;
+}
 nav > a .apps,
 nav > a .share,
 nav > span > a img, 
