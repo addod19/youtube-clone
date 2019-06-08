@@ -239,6 +239,9 @@ aside > .aside-video {
   width: 170px;
   border-radius: 5px;
 }
+.subscribe:hover {
+    cursor: pointer;
+}
 .img-rounded {
     border-radius: 50%;
 }
