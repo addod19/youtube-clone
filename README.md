@@ -5,7 +5,7 @@ This repository contains a clone system of YouTube HomePage [Website](https://gi
 using image and video embedding for the main video and the thumbnails at the sidebar.
 
 
-#USED:
+# USED:
 
     - CSS
     - HTML
