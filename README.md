@@ -21,4 +21,4 @@ This have been done by
 # The Website
 ----
 
-    Follow the link to access to the website: [https://github.com/addod19/youtube-clone/blob/dev/index.html](https://github.com/addod19/youtube-clone/blob/dev/index.html).
+Follow the link to access to the website:[https://github.com/addod19/youtube-clone/blob/dev/index.html](https://github.com/addod19/youtube-clone/blob/dev/index.html).
