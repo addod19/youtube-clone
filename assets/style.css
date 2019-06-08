@@ -15,7 +15,9 @@ nav {
     box-shadow: 1px 1px 1px 1px rgb(240, 240, 240);
     z-index: 1;
 }
-
+iframe {
+    border: 0;
+}
 nav > a .apps,
 nav > a .share,
 nav > span > a img, 
