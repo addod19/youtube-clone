@@ -5,17 +5,17 @@ This repository contains a clone system of YouTube HomePage [Website](https://gi
 using image and video embedding for the main video and the thumbnails at the sidebar.
 
 
-USED:
+#USED:
 
-    * CSS
-    * HTML
+    - CSS
+    - HTML
 
-# AUTHORS
+# AUTHOR
 ----
 
 This have been done by
 
-    * Daniel Larbi Addo [https://github.com/addod19](https://github.com/addod19)
+    - Daniel Larbi Addo [https://github.com/addod19] (https://github.com/addod19)
 
 
 # The Website
