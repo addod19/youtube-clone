@@ -7,8 +7,8 @@ using image and video embedding for the main video and the thumbnails at the sid
 
 # USED:
 
-    - CSS
-    - HTML
+   - CSS
+   - HTML
 
 # AUTHOR
 ----
