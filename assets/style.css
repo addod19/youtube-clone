@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 56px;
+    background: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 1px 1px rgb(240, 240, 240);
+    z-index: 1;
+}
+iframe {
+    border: 0;
+}
+.img-width {
+    width: 100%;
+}
+nav > a .apps,
+nav > a .share,
+nav > span > a img, 
+nav > .bell-class > .fa,
+nav > a > .fa,
+nav > .bars-a .fa,
+nav > a > .fab,
+nav > .searchContainer,
+.container > main .video-id,
+.container > main > .video-id .header-likes .views-like .more,
+.container > main .video-id .video-description .head .subs-btn,
+.img-head,
+.views-likes > .others,
+.profile,
+.text-container  {
+    position: absolute;
+}
+
+nav > a .apps,
+nav > a .share,
+nav > .bell-class > .fa,
+nav > a > .fa,
+nav > .bars-a .fa,
+nav > a > .fab {
+    top: 16px;
+    font-size: 20px;
+}
+.social,
+nav > a .apps,
+nav > a .share,
+nav > .bell-class > .fa,
+nav > a > .fa {
+    color: gray;
+}
+
+nav > a .apps {
+    left: 1050px;
+}
+
+nav > a .share {
+    left: 1100px;
+}
+
+nav > span > a img {
+    border-radius: 50%;
+    right: 50px;
+    top: 10px;
+} 
+nav > .bell-class > .fa {
+    right: 120px;
+}
+nav > a > .fa {
+    right: 180px;
+}
+nav > .bars-a .fa {
+    left: 20px;
+}
+nav > a > .fab {
+    left: 80px;
+    color: red;
+}
+nav > .searchContainer {
+    transform: translate(297px, 9px);
+    height: 30px;
+    width: 575px;
+    left: 100px;
+    top: 5px;
+}
+.searchContainer > button {
+    height: 30px;
+}
+.searchContainer > button:hover {
+    cursor: pointer;
+}
+.searchBox {
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    height: 1800px;
+}
+main {
+    display: flex;
+    width: 60%;
+    height: 1800;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 50px;
+    background: white;
+    
+}
+h3, span {
+    color: black;
+}
+main > .video-id {
+    align-content: center;
+}
+aside {
+    width: 40%;
+    height: 1800;
+    background: white;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 50px;
+}
+
+aside > div > .aside-video {
+    display: flex;
+    width: 70%;
+}
+aside > div > .aside-video .text,
+aside > div > .aside-video .image,
+aside > .aside-video .text,
+aside > .aside-video .image,
+footer {
+    width: 100%;
+}
+
+
+aside > .aside-video {
+    display: flex;
+    width: 70%;
+}
+
+.container > main .video-id {
+    left: 30px;
+}
+.container > main > .video-id .header-likes .views-like .more {
+    left: 40px;
+}
+
+.container > main .video-id .video-description {
+    height: 200px;
+}
+
+.container > main .video-id .video-description .head {
+    height: 70px;
+    background: white;
+}
+
+.container > main .video-id .video-description .head .subs-btn {
+    font-size: 18px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    right: 30px;
+}
+.container > main .video-id .video-description .head a {
+    height: 30px;
+    width: 140px;
+}
+.container > main .video-id .video-description .comment {
+    height: 130px;
+    position: relative;
+}
+.head a img {
+    border-radius: 50%;
+}
+.img-head {
+    display: inline;
+    bottom: 980px;
+} 
+.head > .publish,
+.comment > .show-more,
+.views-likes > .others,
+.views-likes > .likes,
+.duration {
+    color: silver;
+}
+.comment > .show-more {
+    text-decoration: none;
+    height: 30px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+.views-likes > .others {
+    left: 500px;
+    top: 460px;
+}
+.views-likes > .likes {
+    font-size: 18px;
+}
+.comments-section > .comments-sortby-icon {
+    font-size: 22px;
+}
+#sort {
+    font-size: 19px;
+}
+.com {
+  margin-top: 55px;
+}
+.com-dislikes {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.autoplay {
+  margin-left: 212px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.up-next {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.subscribe {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+}
+.subscribe:hover {
+    cursor: pointer;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.pubPhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.profile {
+  transform: translate(5px, -5px);
+  margin-top: 20px;
+  padding: 5px;
+}
+footer {
+    position: relative;
+    height: 56px;
+    background: white;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+}
+.text-container {
+    left: 350px;
+    bottom: 10;
+    color: black;
+}
